@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Jobverse
+build_property.RootNamespace = Jobverse
+build_property.ProjectDir = D:\After-Mid\developerhunter\Jobverse\Jobverse\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\After-Mid\developerhunter\Jobverse\Jobverse
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/CompanyProfile/CreateCompanyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVByb2ZpbGVcQ3JlYXRlQ29tcGFueVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/CompanyProfile/LoginEmployer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVByb2ZpbGVcTG9naW5FbXBsb3llci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/CompanyProfile/SignupEmployer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcGFueVByb2ZpbGVcU2lnbnVwRW1wbG95ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Employee/LoginEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTG9naW5FbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Employee/SignupEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU2lnbnVwRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/JobApplication/JobApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25cSm9iQXBwbGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/JobApplication/SaveApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iQXBwbGljYXRpb25cU2F2ZUFwcGxpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/JobPosting/JobPosting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iUG9zdGluZ1xKb2JQb3N0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Notification/Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uXE5vdGlmaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Resume/buildResume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lXGJ1aWxkUmVzdW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Resume/reviewResume.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdW1lXHJldmlld1Jlc3VtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/After-Mid/developerhunter/Jobverse/Jobverse/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-flw0m2sw4x

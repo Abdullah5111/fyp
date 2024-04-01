@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Jobverse</title>
+</head>
+<body>
+    <header id="header" id="home" style="background-color: #333a56">
+      <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a
+              asp-controller="Home" asp-action="Index" style="font-size: 18px; color: #f9f9f9; margin-left: 20px">Jobverse</a>
+          </div>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-controller="JobApplication" asp-action="MyJob">My Jobs</a></li>
+                <li><a asp-controller="Resume" asp-action="BuildResume">Resume</a></li>
+                        @if (ViewBag.ShowSignup == true)
+                        {
+                            <li><a asp-controller="CreateCompanyProfile" asp-action="SignupEmployer">Switch to Employer</a></li>
+                            <li><a asp-controller="Employee" asp-action="SignupEmployee" class="ticker-btn">Signup</a></li>
+                            <li><a asp-controller="Employee" asp-action="LoginEmployee" class="ticker-btn">Login</a></li>
+                        }
+                        else
+                        {
+                            <li><a asp-controller="Employee" asp-action="LogoutEmployee">Logout</a></li>
+                        }
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

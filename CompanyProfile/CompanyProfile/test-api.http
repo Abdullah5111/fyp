@@ -1,0 +1,13 @@
+@baseurl = http://localhost:7105/api/companies
+
+### GET Request
+GET {{baseurl}}
+
+### POST Request
+POST {{baseurl}} Content-Type: application/json
+
+{
+    "Email": "test@email.com",
+    "Username": "testuser",
+    "Password": "testpassword"
+}

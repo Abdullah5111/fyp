@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Include jQuery (use the newer version) -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> <!-- Include jQuery UI -->
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/JobPosting.css" />
+
+</head>
+<body>
+
+
+    <form action="/jobPosting/PostJob" id="jobPostForm" method="post">
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-9 register-right">
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="employee" role="tabpanel" aria-labelledby="employee-tab">
+                            <h3 class="register-heading">Post a Job</h3>
+                            <div class="row register-form">
+                                <!-- Employee Registration Form -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Job Title *" id="job_title" name="JobTitle" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Job Description *" id="job_desc" name="JobDescription" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Location *" id="location" name="Location" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="Type" id="type">
+                                            <option class="hidden" selected disabled>Please select your job type</option>
+                                            <option value="Full-Time">Full-Time</option>
+                                            <option value="Part-Time">Part-Time</option>
+                                            <option value="Temporary">Temporary</option>
+                                            <option value="Contract">Contract</option>
+                                            <option value="Internship">Internship</option>
+                                            <option value="Fresher">Fresher</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Salary Range *" id="salary" name="SalaryRange" value="" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Company Email *" id="email" name="Email" value="" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Company Name *" id="name" name="Company" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="Experience" id="experience">
+                                            <option class="hidden" selected disabled>The experience you want</option>
+                                            <option value="0">0 year</option>
+                                            <option value="1">1 year</option>
+                                            <option value="2">2 years</option>
+                                            <option value="3">3 years</option>
+                                            <option value="4">4 years</option>
+                                            <option value="5">5 years</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control" name="Qualifications" id="qualification">
+                                            <option class="hidden" selected disabled>The qualification you want</option>
+                                            <option value="Intermediate">Intermediate</option>
+                                            <option value="Bachelors">Bachelors</option>
+                                            <option value="Masters">Masters</option>
+                                            <option value="PhD">PhD</option>
+                                        </select>
+                                    </div>
+
+
+@*                                    <div class="form-group">
+                                        <label for="postedDate">Posted Date:</label>
+                                        <input type="text" id="postedDate" name="PostedDate" class="form-control" placeholder="Select the date *" value="" required />
+                                    </div>*@
+                                    <div class="form-group">
+                                        <label for="lateDate">Last Date:</label>
+                                        <input type="text" id="lateDate" name="LastDate" class="form-control" placeholder="Select the date *" value="" required />
+                                    </div>
+                                    @*<input type="submit" class="btnRegister" value="Post" />*@
+                                    <button type="submit"
+                                            class="btnRegister" value="Post">
+                                        Post
+                                    </button>
+                                </div>
+                                <!-- End of Employee Registration Form -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="hirer" role="tabpanel" aria-labelledby="hirer-tab">
+                            <!-- Remove the content inside this tab -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+    <script>
+        // Ensure the document is ready before executing jQuery
+        $(document).ready(function () {
+            // Initialize datepicker for postedDate and lateDate fields
+            $("#postedDate").datepicker();
+            $("#lateDate").datepicker();
+        });
+    </script>
+   
+</body>
+</html>

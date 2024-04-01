@@ -1,0 +1,85 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Jobverse.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Jobverse.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\JobPosting.css",
+      "PackagePath": "staticwebassets\\css\\JobPosting.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\Signup.css",
+      "PackagePath": "staticwebassets\\css\\Signup.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\applyJob.css",
+      "PackagePath": "staticwebassets\\css\\applyJob.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\bootstrap.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.map"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\jobApplication.css",
+      "PackagePath": "staticwebassets\\css\\jobApplication.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\main.map",
+      "PackagePath": "staticwebassets\\css\\main.map"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\css\\reviewApplication.css",
+      "PackagePath": "staticwebassets\\css\\reviewApplication.css"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\images\\logo-no-background.png",
+      "PackagePath": "staticwebassets\\images\\logo-no-background.png"
+    },
+    {
+      "Id": "D:\\After-Mid\\developerhunter\\Jobverse\\Jobverse\\wwwroot\\js\\CreateCompanyProfile.js",
+      "PackagePath": "staticwebassets\\js\\CreateCompanyProfile.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Jobverse.props",
+      "PackagePath": "build\\Jobverse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Jobverse.props",
+      "PackagePath": "buildMultiTargeting\\Jobverse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Jobverse.props",
+      "PackagePath": "buildTransitive\\Jobverse.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

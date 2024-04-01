@@ -1,0 +1,242 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Resume</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/reviewapplication.css" rel="stylesheet" />
+</head>
+
+<body>
+    @{
+        Layout = null;
+    }
+    @*@Model*@
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <a class="navbar-brand custom-navbar-link custom-navbar-brand" href="#">Jobverse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        </nav>
+    </section>
+    <div class="container mt-6 mb-7">
+        <form method="post" action="/resume/GeneratePdf">
+        <div class="row justify-content-center">
+            
+            <div class="col-lg-12 col-xl-7">
+                <div class="card">
+                    <div class="card-body p-5">
+                        <div class="h3-heading">
+                            <h3>
+                                Is your resume ready?
+                            </h3>
+                        </div>
+                        
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+
+                            <div class="col-md-6">
+                                <div class="text-muted mb-2 user-info">Contact Information</div>
+                                <div class="mb-3">
+                                    <label for="textInput" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="textInput" name ="FirstName" value="@Model.FirstName ">
+                                </div>
+                                    <div class="mb-3">
+                                        <label for="textInput" class="form-label">Second Name</label>
+                                        <input type="text" class="form-control" id="textInput" name="SecondName" value="@Model.SecondName">
+                                    </div>
+                                <div class="mb-3">
+                                    <label for="emailInput" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="emailInput" name="Email"
+                                           value="@Model.Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cityInput" class="form-label">City</label>
+                                    <input type="text" class="form-control" id="cityInput" name="City"
+                                           value="@Model.City">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="Summary" class="form-label">About Yourself</label>
+                                    <input type="text" class="form-control" id="summary" name="Summary" value="@Model.Summary">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+                            <!-- <-- set according to backend just like in resume build page using javascript..At the moment just a input field -->
+                            <div class="col-md-6">
+                                <div class="text-muted mb-2 user-info">Education</div>
+                                <div class="mb-3">
+                                    <ul>
+                                    @if (Model.Education != null && Model.Education.Count > 0)
+                                    {
+                                                int i = 0;
+                                            @foreach (var education in Model.Education)
+                                            {
+                                                if (education.LevelOfEducation != null)
+                                                {
+                                                    <div>
+                                                        <li><p><strong>@education.LevelOfEducation</strong></p></li>
+                                                        <p>@education.InstitueName, @education.City</p>
+                                                        <input type="hidden" name="Education[@i].LevelOfEducation" value="@education.LevelOfEducation">
+                                                        <input type="hidden" name="Education[@i].City" value="@education.City">
+                                                        <input type="hidden" name="Education[@i].InstitueName" value="@education.InstitueName">
+
+                                                        @if (education.To > 0)
+                                                        {                                                    
+                                                            <small>@education.From-@education.To</small>
+                                                            <input type="hidden" name="Education[@i].To" value="@education.To">
+                                                        }
+                                                        else
+                                                        {
+                                                             <small>@education.From</small>
+                                                            <input type="hidden" name="Education[@i].From" value="@education.From">
+
+                                                        }
+                                                        </div>
+                                                        i++;
+                                                    }
+                                            }
+                                    }
+                                    else
+                                    {
+                                        <p>No work experience available.</p>
+                                    }
+                                </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+                            <!-- <-- set according to backend just like in resume build page using javascript..At the moment just a input field -->
+                            <div class="col-md-6">
+                                <div class="text-muted mb-2 user-info">Work Experience</div>
+                                <div class="mb-3">
+                                    <ul>
+                                    @if (Model.Experience != null && Model.Experience.Count > 0)
+                                    {
+                                        int i = 0;
+                                      
+                                        foreach (var experience in Model.Experience)
+                                        {
+                                            if(experience.Title != null)
+                                            {
+                                           
+                                                <div>
+                                                    <li> <p><strong>@experience.Title</strong></p></li>
+                                                    <p>Company: @experience.Company</p>
+                                                    <p>Start Date:
+                                                        @experience.StartDate
+                                                    </p>
+                                                   @*This is for assigning values of model*@
+                                                        <input type="hidden" name="Experience[@i].Title" value="@experience.Title">
+                                                        <input type="hidden" name="Experience[@i].Company" value="@experience.Company">
+                                                        <input type="hidden" name="Experience[@i].StartDate" value="@experience.StartDate">
+                                                   
+                                                        @if (experience.EndDate > 0)
+                                                        {
+                                                            <p>End Date: @experience.EndDate</p>
+                                                                <input type="hidden" name="Experience.EndDate" value="@experience.EndDate">
+
+                                                        }
+                                                         <p> Description: @experience.Description</p>
+                                                         <input type="hidden" name="Experience.Description" value="@experience.Description">
+
+                                                   </div>
+                                                   i++;
+                                            }
+                                                   
+                                        }
+                                   
+                                        
+                                    
+                                     }
+                                     else
+                                     {
+                                            <p>No work experience available.</p>
+                                     }
+                                    </ul>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+                            <div class="col-md-6">
+                                <div class="text-muted mb-2 user-info">Skills</div>
+                                <div class="mb-3">
+                                    @if (Model.Skills != null)
+                                    {
+                                        // Split the string into an array of skills
+                                        var skillsArray = Model.Skills.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+                                        // Check if there are any skills in the array
+                                       
+                                      <ul>
+                                          @foreach (var skill in skillsArray)
+                                          {
+                                             <li>@skill</li>
+                                            <input type="hidden" name="Skills" value="@skill">
+                                          }
+                                     </ul>
+                                    }
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top border-gray-200 pt-4 mt-4">
+                            <div class="col-md-6">
+                                <div class="text-muted mb-2 user-info">Certificates</div>
+                                <div class="mb-3">
+                                    @if (Model.Certificates != null && Model.Certificates.Count > 0)
+                                    {
+                                            @*Console.WriteLine(Model.Certificates.Count);*@
+                                            int i = 0;
+                                            <ul>
+                                            @foreach (var certificate in Model.Certificates)
+                                            {
+                                                if(certificate != null)
+                                                {
+                                                    <li>@certificate</li>
+                                                        <input type="hidden" name="Certificates[@i]" value="@certificate">
+                                                        i++;
+                                                    }
+                                                
+                                            }
+                                        </ul>
+                                    }
+                                    else
+                                    {
+                                        <p>No certificates available.</p>
+                                    }
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn custom-button mt-3">Submit Application</button>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </form>
+    </div>
+    <!-- Add Bootstrap JavaScript (optional, for certain components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

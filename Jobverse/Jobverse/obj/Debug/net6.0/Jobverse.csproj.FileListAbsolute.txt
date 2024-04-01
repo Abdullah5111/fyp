@@ -1,0 +1,357 @@
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.staticwebassets.runtime.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.exe
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.deps.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.runtimeconfig.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.pdb
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.AssemblyReference.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfoInputs.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfo.cs
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CoreCompileInputs.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cs
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.build.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\projectbundle\Jobverse.bundle.scp.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\refint\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.pdb
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.genruntimeconfig.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\ref\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\System.Net.Http.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\MSs\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CopyComplete
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.staticwebassets.runtime.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.exe
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.deps.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.runtimeconfig.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.pdb
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Net.Http.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.AssemblyReference.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfoInputs.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfo.cs
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CoreCompileInputs.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cs
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.build.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Jobverse.props
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\projectbundle\Jobverse.bundle.scp.css
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CopyComplete
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\refint\Jobverse.dll
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.pdb
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.genruntimeconfig.cache
+C:\Users\X1 Carbon\Dropbox\My PC (DESKTOP-58DM7T9)\Desktop\FYP\Main Github Project\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\ref\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.Development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.staticwebassets.runtime.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.exe
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.deps.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.runtimeconfig.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Net.Http.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.AssemblyReference.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.GeneratedMSBuildEditorConfig.editorconfig
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfoInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CoreCompileInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.MvcApplicationPartsAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.build.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.pack.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.build.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\projectbundle\Jobverse.bundle.scp.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CopyComplete
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\refint\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.genruntimeconfig.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\ref\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Core.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Identity.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Memory.Data.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.Development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.staticwebassets.runtime.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.exe
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.deps.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.runtimeconfig.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Core.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Identity.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Memory.Data.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Net.Http.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Json.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.AssemblyReference.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.GeneratedMSBuildEditorConfig.editorconfig
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfoInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CoreCompileInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.MvcApplicationPartsAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.build.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Jobverse.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.pack.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.build.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\projectbundle\Jobverse.bundle.scp.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CopyComplete
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\refint\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.genruntimeconfig.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\ref\Jobverse.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\DinkToPdf.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\linux-x64\native\libwkhtmltox.so
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\linux-x86\native\libwkhtmltox.so
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\osx-x64\native\libwkhtmltox.dylib
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\osx-x86\native\libwkhtmltox.dylib
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win7-x64\native\libwkhtmltox.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win7-x86\native\libwkhtmltox.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.Development.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\appsettings.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.staticwebassets.runtime.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.exe
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.deps.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.runtimeconfig.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Jobverse.pdb
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Core.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Azure.Identity.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\DinkToPdf.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Memory.Data.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Net.Http.Json.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Text.Json.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\linux-x64\native\libwkhtmltox.so
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\linux-x86\native\libwkhtmltox.so
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\osx-x64\native\libwkhtmltox.dylib
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\osx-x86\native\libwkhtmltox.dylib
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win7-x64\native\libwkhtmltox.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win7-x86\native\libwkhtmltox.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.AssemblyReference.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.GeneratedMSBuildEditorConfig.editorconfig
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfoInputs.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.AssemblyInfo.cs
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CoreCompileInputs.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.MvcApplicationPartsAssemblyInfo.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.RazorAssemblyInfo.cs
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.Jobverse.Microsoft.AspNetCore.StaticWebAssets.props
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.build.Jobverse.props
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Jobverse.props
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Jobverse.props
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.pack.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.build.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\staticwebassets.development.json
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\projectbundle\Jobverse.bundle.scp.css
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.csproj.CopyComplete
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\refint\Jobverse.dll
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.pdb
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\Jobverse.genruntimeconfig.cache
+D:\After-Mid\developerhunter\Jobverse\Jobverse\obj\Debug\net6.0\ref\Jobverse.dll

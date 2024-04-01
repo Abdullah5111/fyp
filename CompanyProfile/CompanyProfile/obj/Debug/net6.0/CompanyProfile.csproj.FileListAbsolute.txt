@@ -1,0 +1,208 @@
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.Development.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.exe
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.deps.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.runtimeconfig.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Humanizer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.AssemblyReference.cache
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfoInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CoreCompileInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.CompanyProfile.Microsoft.AspNetCore.StaticWebAssets.props
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.build.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.pack.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.build.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.development.json
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\scopedcss\bundle\CompanyProfile.styles.css
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CopyComplete
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\refint\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.genruntimeconfig.cache
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\obj\Debug\net6.0\ref\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Extensions.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\de-DE\FluentMigrator.Abstractions.resources.dll
+D:\6TH SEMESTER\SCAD\WebApplications\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.Development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.exe
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.deps.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.runtimeconfig.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Extensions.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Humanizer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\de-DE\FluentMigrator.Abstractions.resources.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.AssemblyReference.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfoInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CoreCompileInputs.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.CompanyProfile.Microsoft.AspNetCore.StaticWebAssets.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.build.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CompanyProfile.props
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.pack.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.build.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.development.json
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\scopedcss\bundle\CompanyProfile.styles.css
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CopyComplete
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\refint\CompanyProfile.dll
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.pdb
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.genruntimeconfig.cache
+D:\6TH SEMESTER\SCAD\WebApplications\developerhunter-main\developerhunter-main\CompanyProfile\CompanyProfile\obj\Debug\net6.0\ref\CompanyProfile.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.Development.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\appsettings.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.exe
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.deps.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.runtimeconfig.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\CompanyProfile.pdb
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Abstractions.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\FluentMigrator.Extensions.SqlServer.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Humanizer.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\de-DE\FluentMigrator.Abstractions.resources.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.AssemblyReference.cache
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.GeneratedMSBuildEditorConfig.editorconfig
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfoInputs.cache
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.AssemblyInfo.cs
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CoreCompileInputs.cache
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cs
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.MvcApplicationPartsAssemblyInfo.cache
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.CompanyProfile.Microsoft.AspNetCore.StaticWebAssets.props
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.build.CompanyProfile.props
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CompanyProfile.props
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CompanyProfile.props
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.pack.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.build.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\staticwebassets.development.json
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\scopedcss\bundle\CompanyProfile.styles.css
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.csproj.CopyComplete
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\refint\CompanyProfile.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.pdb
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.genruntimeconfig.cache
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\ref\CompanyProfile.dll
+D:\After-Mid\developerhunter\CompanyProfile\CompanyProfile\obj\Debug\net6.0\CompanyProfile.sourcelink.json

@@ -1,0 +1,483 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Build</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+    <link href="~/css/applyjob.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <a class="navbar-brand custom-navbar-link custom-navbar-brand" href="#">Jobverse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-navbar-link d-flex flex-col justify-content-center" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-navbar-link d-flex flex-col justify-content-center" href="#">Home</a>
+                    </li>
+                </ul>
+                <div class=" my-2 my-lg-0 d-flex flex-col justify-content-center">
+                    <button type="button" class="btn btn-floating mx-1 custom-navbar-button">
+                        Switch to Employee
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="container mt-5">
+        <div class="row gx-5 gap-x-4 justify-content-center align-items-center">
+            <div class="col-12 col-md-12 col-lg-7 profile-completeness">
+                <!-- Progress Bar -->
+                <div class="progress mb-3 mt-3">
+                    <div class="progress-bar custom-bar" role="progressbar" style="width: 30%;" aria-valuenow="30"
+                         aria-valuemin="0" aria-valuemax="100">
+                        25% Complete
+                    </div>
+                </div>
+                <!-- Profile Completeness Form - Step 1 -->
+                <div class="progress-heading mb-3">
+                    <h3>What is your name?</h3>
+                </div>
+                <form action="/resume/reviewResume" method="post">
+                <div id="step1">
+                    <div class="form-group">
+                        <label for="name">First name</label>
+                        <input type="text" class="form-control" id="name" placeholder="First name" name="FirstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Last name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Last name" name="LastName">
+                    </div>
+
+                    <!-- ... More contact information fields ... -->
+                    <button type="button" class="btn custom-button mt-3" onclick="showStep(2)">Next</button>
+                </div>
+                <!-- Profile Completeness Form - Step 4 (Hidden by default) -->
+                <div id="step4" style="display: none;">
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select class="form-control" id="country" name="Country" >
+                            <option value="usa">United States</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="australia">Australia</option>
+                            <option value="australia">Pakistan</option>
+                            <option value="australia">India</option>
+                            <option value="australia">Bangladesh</option>
+                            <!-- Add more countries as needed -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">City,State</label>
+                        <input type="text" class="form-control" id="city" placeholder="City" name="City">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Postal Code</label>
+                        <input type="number" class="form-control" id="postal-code" placeholder="Postal code">
+                    </div>
+                    <button type="button" class="btn custom-button mt-3" onclick="showStep(5)">Next</button>
+
+                </div>
+                <!-- Profile Completeness Form - Step 2 (Hidden by default) -->
+                <div id="step2" style="display: none;">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" name="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone number" name="PhoneNumber">
+                    </div>
+
+                    <button type="button" class="btn custom-button mt-3" onclick="showStep(3)">Next</button>
+                </div>
+                    <!-- Profile Completeness Form - Step 3 (Hidden by default) -->
+                    <div id="step3" style="display: none;">
+                        
+
+                            <div class="form-group">
+                                <label for="about-yourself">About Yourself</label>
+                                <textarea class="form-control" name="Summary" rows="4" placeholder="Enter About Yourself"></textarea>
+                            </div>
+                      
+
+                        <button type="button" class="btn custom-button mt-3" onclick="showStep(4)">Next</button>
+                    </div>
+                <!-- Profile Completeness Form - Step 5 (Hidden by default) -->
+                <div id="step5" style="display: none;">
+                     <button type="button" class="btn custom-button mt-3" onclick="addEducation()">Add Education</button>
+                     <button type="button" class="btn custom-button mt-3" onclick="showStep(6)">Next</button>
+
+                     <div id="education-section-0" class="education-section mt-3">
+                        <div class="form-group">
+                            <label for="">Level of education</label>
+                            <input type="text" class="form-control" id="name" placeholder="" name="Education[0].LevelOfEducation">
+                        </div>
+                        <div class="form-group">
+                            <label for="Institute-Name">Institute Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="" name="Education[0].InstitueName">
+                        </div>
+                        <div class="form-group">
+                            <label for="c">City</label>
+                            <input type="text" class="form-control" id="name" placeholder="" name="Education[0].City">
+                        </div>
+                        <div class="form-group">
+                            <label>Currently enrolled</label>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="enrolled" id="enrolledYes" value="yes">
+                                <label class="form-check-label" for="enrolledYes">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="enrolled" id="enrolledNo" value="no">
+                                <label class="form-check-label" for="enrolledNo">No</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="from-date">From</label>
+                                    <input type="text" class="form-control" id="from-date" name="Education[0].From">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="to-date">To</label>
+                            <input type="text" class="form-control" id="to-date" name="Education[0].To" placeholder="">
+                        </div>
+                    </div>
+                        
+                </div>
+                    <!-- Profile Completeness Form - Step 6 (Hidden by default) -->
+                    <div id="step6" style="display: none;">
+                            <button type="button" class="btn custom-button mt-3" onclick="addExperience()">Add Experience</button>
+                            <button type="button" class="btn custom-button mt-3" onclick="showStep(7)">Next</button>
+                        
+                        <div id="experience-section-0" class="experience-section mt-3">
+                            <div class="form-group">
+                                <label for="jobTitle">Job title</label>
+                                <input type="text" class="form-control" name="Experience[0].Title">
+                            </div>
+                            <div class="form-group">
+                                <label for="Company">Company</label>
+                                <input type="text" class="form-control" name="Experience[0].Company">
+                            </div>
+                            <div class="form-group">
+                                <label for="from-date">From</label>
+                                <input type="text" class="form-control" name="Experience[0].StartDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="to-date">To</label>
+                                <input type="text" class="form-control" name="Experience[0].EndDate">
+                            </div>
+                            <div class="form-group">
+                                <label for="job-description">Job Description</label>
+                                <textarea class="form-control" name="Experience[0].Description" rows="4" placeholder="Enter job description"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Profile Completeness Form - Step 7 (Hidden by default) -->
+                <div id="step7" style="display: none;">
+                    <div class="form-group">
+                        <label for="skills">Skills (Maximum 6)</label>
+                        <input type="text" class="form-control" id="skills" name="Skills" placeholder="Enter a skill">
+                    </div>
+                    <div id="added-skills"></div>
+                    <button type="button" class="btn custom-button mt-3" onclick="showStep(8)">Next</button>
+                </div>
+                <!-- Profile Completeness Form - Step 8 (Hidden by default) -->
+                    <div id="step8" style="display: none;">
+                        <div class="form-group">
+                            <label for="certificates">Certificates</label>
+                            <input type="text" class="form-control" id="certificates" name="Certificates[0]" placeholder="Enter a certificate">
+                        </div>
+                        <div id="added-certificates"></div>
+                        <button type="button" class="btn custom-button mt-3" onclick="addCertificate()">Add Certificate</button>
+                        <button type="submit" class="btn custom-button mt-3">Preview Resume</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (if needed) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function showStep(step) {
+            // Hide all steps first
+            for (let i = 1; i <= 8; i++) {
+                document.getElementById('step' + i).style.display = 'none';
+            }
+
+
+            document.getElementById('step' + step).style.display = 'block';
+
+            // Update progress bar and heading based on the step
+            if (step === 2) {
+                updateProgress(30);
+                document.querySelector('.progress-heading h3').textContent = 'Contact';
+            }else if (step === 3) {
+                updateProgress(40);
+                document.querySelector('.progress-heading h3').textContent = 'About Yourself..';
+            } 
+            else if (step === 4) {
+                updateProgress(55);
+                document.querySelector('.progress-heading h3').textContent = 'Where are you located?';
+            } else if (step === 5) {
+                updateProgress(65);
+                document.querySelector('.progress-heading h3').textContent = 'Add Education';
+            }
+            else if (step === 6) {
+                updateProgress(70);
+                document.querySelector('.progress-heading h3').textContent = 'Add work experience';
+            }
+            else if (step === 7) {
+                updateProgress(80);
+                document.querySelector('.progress-heading h3').textContent = 'What are your some skills?';
+            }
+            
+            else if (step === 8) {
+                updateProgress(100);
+                document.querySelector('.progress-heading h3').textContent = 'Add Certificates..';
+            }
+        }
+
+        function updateProgress(completeness) {
+            const progressBar = document.querySelector('.progress-bar');
+            progressBar.style.width = completeness + '%';
+            progressBar.textContent = completeness + '% Complete';
+        }
+
+        //function navigate() {
+        //    // Add logic to handle the completion of the profile, e.g., submit the form data.
+        //    window.location.href = '/resume/reviewResume';
+        //}
+
+
+        //Education
+        function updateToDate() {
+            const enrolledYes = document.getElementById('enrolledYes');
+            const toDateInput = document.getElementById('to-date');
+
+            enrolledYes.addEventListener('change', function () {
+                if (this.checked) {
+                    const element = document.getElementById("to-date");
+                    element.placeholder = "present";
+                    element.disabled = true;
+                    // Create a new text input element
+                    //const newTextInput = document.createElement('input');
+                    //newTextInput.type = 'text';
+                    //newTextInput.className = 'form-control';
+                    //newTextInput.id = 'to-date';
+                    //newTextInput.name = 'to-date';
+                    //newTextInput.placeholder = 'Present';
+
+                    //// Replace the existing "To" date input with the new text input
+                    //toDateInput.parentNode.replaceChild(newTextInput, toDateInput);
+                    //newTextInput.disabled = true;
+                }
+            });
+
+            const enrolledNo = document.getElementById('enrolledNo');
+            enrolledNo.addEventListener('change', function () {
+                
+                if (this.checked) {
+                    
+                    //toDateInput.value = '';
+                    //toDateInput.placeholder = '';
+                    //console.log(toDateInput, "Abc")
+                    //// Clear the "To" date when "No" is selected
+                    //toDateInput.disabled = false; // Enable the "To" date input field
+                    const element = document.getElementById("to-date");
+                    element.placeholder = "";
+                    element.disabled = false;
+                }
+            });
+        }
+       
+        // Initialize the updateToDate function
+        updateToDate();
+
+
+
+
+
+        //skills updation
+        const skillsInput = document.getElementById('skills');
+        const addedSkillsContainer = document.getElementById('added-skills');
+        let skillsCount = 0;
+
+        skillsInput.addEventListener('keydown', function (event) {
+            if (event.key === ',' || event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                const skill = skillsInput.value.trim();
+                if (skill && skillsCount < 6) {
+                    // Create a new skill container div
+                    const skillContainer = document.createElement('div');
+                    skillContainer.className = 'skill-container'; // Add a CSS class for styling
+
+                    // Create a new skill element (inside the container)
+                    const skillElement = document.createElement('span');
+
+                    // Apply styling to the skill element
+                    skillElement.style.fontSize = '20px'; // Increase font size
+                    skillElement.style.backgroundColor = '#f9f9f9';
+                    const array = skill.split(' ');
+                    skillElement.textContent = array[skillsCount];
+
+                    // Append the skill element to the skill container
+                    skillContainer.appendChild(skillElement);
+
+                    // Append the skill container to the added-skills container
+                    addedSkillsContainer.appendChild(skillContainer);
+
+                    // Clear the skills input field
+                    //console.log("Usama ikram")
+                    //console.log(skillsInput.value);
+                    skillsInput.value = skillsInput.value.trim() + " ";
+
+                    // Increment the skills count
+                    skillsCount++;
+                }
+
+            }
+        });
+        //const certificatesInput = document.getElementById('certificates');
+        //const addedCertificatesContainer = document.getElementById('added-certificates');
+
+        //certificatesInput.addEventListener('keydown', function (event) {
+        //    if (event.key === ',' || event.key === 'Enter') {
+        //        event.preventDefault();
+        //        const certificate = certificatesInput.value.trim();
+
+        //        if (certificate) {
+        //            // Create a new certificate container div
+        //            const certificateContainer = document.createElement('div');
+        //            certificateContainer.className = 'certificate-container'; // Add a CSS class for styling
+
+        //            // Create a new certificate element (inside the container)
+        //            const certificateElement = document.createElement('span');
+
+        //            // Apply styling to the certificate element
+        //            certificateElement.style.fontSize = '20px'; // Increase font size
+        //            certificateElement.style.backgroundColor = '#f9f9f9'; // Change background color
+        //            certificateElement.textContent = certificate;
+
+        //            // Append the certificate element to the certificate container
+        //            certificateContainer.appendChild(certificateElement);
+
+        //            // Append the certificate container to the added-certificates container
+        //            addedCertificatesContainer.appendChild(certificateContainer);
+
+        //            // Clear the certificates input field
+        //            certificatesInput.value = '';
+        //        }
+        //    }
+        //});
+
+
+        //Experience
+
+
+        let experienceIndex = 0;
+
+        function addExperience() {
+            experienceIndex++;
+
+            const experienceSection = document.getElementById(`experience-section-${experienceIndex - 1}`);
+            const clonedExperienceSection = experienceSection.cloneNode(true);
+
+            // Update input names to include the new index
+            clonedExperienceSection.querySelectorAll('input, textarea').forEach((element) => {
+                const name = element.getAttribute('name');
+                    //console.log(name);
+                element.setAttribute('name', name.replace(`[0]`, `[${experienceIndex}]`));
+                element.value = ''; // Clear input values for the new section
+            });
+
+            //// Append the new experience section
+            clonedExperienceSection.id = `experience-section-${experienceIndex}`;
+            experienceSection.parentNode.appendChild(clonedExperienceSection);
+
+            //experienceSection.parentNode.insertBefore(clonedExperienceSection);
+             //Append the new experience section before the buttons
+           // experienceSection.parentNode.insertBefore(clonedExperienceSection, experienceSection.nextSibling);
+        }
+
+        let educationIndex = 0;
+
+        function addEducation() {
+            educationIndex++;
+
+            const educationSection = document.getElementById(`education-section-${educationIndex - 1}`);
+            const clonedEducationSection = educationSection.cloneNode(true);
+
+            // Update input names to include the new index
+            clonedEducationSection.querySelectorAll('input, textarea').forEach((element) => {
+                const name = element.getAttribute('name');
+                //console.log(name);
+                element.setAttribute('name', name.replace(`[0]`, `[${educationIndex}]`));
+                element.value = ''; // Clear input values for the new section
+            });
+
+            //// Append the new experience section
+            clonedEducationSection.id = `education-section-${educationIndex}`;
+            educationSection.parentNode.appendChild(clonedEducationSection);
+
+            //experienceSection.parentNode.insertBefore(clonedExperienceSection);
+            //Append the new experience section before the buttons
+            // experienceSection.parentNode.insertBefore(clonedExperienceSection, experienceSection.nextSibling);
+        }
+
+
+
+
+        //add certificates
+
+        let certificateIndex = 0;
+
+        function addCertificate() {
+            certificateIndex++;
+
+            const certificatesDiv = document.getElementById('added-certificates');
+
+            // Create a new certificate section
+            const certificateSection = document.createElement('div');
+            certificateSection.className = 'form-group';
+
+            // Create the input element for the certificate
+            const inputElement = document.createElement('input');
+            inputElement.type = 'text';
+            inputElement.className = 'form-control';
+            inputElement.name = `Certificates[${certificateIndex}]`;
+            inputElement.placeholder = 'Enter a certificate';
+
+            // Append the input element to the certificate section
+            certificateSection.appendChild(inputElement);
+
+            // Append the certificate section to the container
+            certificatesDiv.appendChild(certificateSection);
+        }
+
+    </script>
+</body>
+
+</html>
