@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header id="header" id="home" style="background-color: #333a56">
+      <div class="container">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a
+              href="index.html"
+              style="font-size: 18px; color: #f9f9f9; margin-left: 20px"
+              >Jobverse</a
+            >
+          </div>
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                        <li class="menu-active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Resume" asp-action="BuildResume">Resume</a></li>
+                        <li><a asp-controller="CreateCompanyProfile" asp-action="SignupEmployer">Switch Employer</a></li>
+                        <li><a asp-controller="Employee" asp-action="SignupEmployee" class="ticker-btn">Signup</a></li>
+              <li class="menu-active"><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="category.html">Category</a></li>
+              <li><a href="price.html">Price</a></li>
+              <li><a href="blog-home.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="menu-has-children">
+                <a href="">Pages</a>
+                <ul>
+                  <li><a href="elements.html">elements</a></li>
+                  <li><a href="search.html">search</a></li>
+                  <li><a href="single.html">single</a></li>
+                </ul>
+              </li>
+              <li><a class="ticker-btn" href="#">Signup</a></li>
+              <li><a class="ticker-btn" href="#">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

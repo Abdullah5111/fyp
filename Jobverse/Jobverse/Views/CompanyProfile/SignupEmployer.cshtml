@@ -1,0 +1,77 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Jobverse</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link href="~/css/signup.css" rel="stylesheet" />
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+<body>
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100 custom-main-div">
+                <div class="col-md-9 col-lg-6 col-xl-5 custom-div-left h-100">
+                    <img src="~/images/logo-no-background.png" class="img-fluid custom-logo" alt="Jobverse" />
+                </div>
+                <div class="col-md-9 col-lg-6 col-xl-5 custom-form-div h-100">
+                    <form class="custom-form" asp-controller="CreateCompanyProfile" asp-action="SignupSuccess" method="post">
+                        <div class="d-flex flex-row align-items-center justify-content-center justify-content-center">
+                            <p class="lead fw-normal mb-0 me-3 custom-font-size">Sign up with</p>
+                            <button type="button" class="btn-floating mx-1 custom-google-icon-button">
+                                <i class="fab fa-google custom-google-icon"></i>
+                            </button>
+                        </div>
+
+                        <div class="divider d-flex align-items-center my-4">
+                            <p class="text-center fw-bold mx-3 mb-0 custom-font-size">Or</p>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input name="Email" type="email" id="form3Example3" class="form-control custom-form-input"
+                                   placeholder="Enter a valid email address" />
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input name="Username" type="text" id="form3Example3" class="form-control custom-form-input"
+                                   placeholder="Enter a username" />
+                        </div>
+
+                        <div class="form-outline mb-3">
+                            <input name="Password" type="password" id="form3Example4" class="form-control custom-form-input"
+                                   placeholder="Enter password" />
+                        </div>
+                        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                        {
+                            <div class="alert alert-danger" style=" font-size:12px">
+                                @ViewBag.ErrorMessage
+                            </div>
+                        }
+                        <div class="text-center">
+                            <button type="submit" id="signInBtn" class="btn btn-primary custom-login-button"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                                Sign up
+                            </button>
+                            <p class="fw-bold mt-2 pt-1 mb-0 custom-font-size">
+                                Already have an account? <a asp-controller="CreateCompanyProfile" asp-action="LoginEmployer"
+                                                            class="link-danger text-decoration-none">Sign in</a>
+                            </p>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

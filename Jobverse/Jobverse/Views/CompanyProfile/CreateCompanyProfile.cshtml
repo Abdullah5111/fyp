@@ -1,0 +1,203 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateCompanyProfile</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="~/css/applyjob.css" rel="stylesheet" />
+    <script src="~/js/createcompanyprofile.js"></script>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+            <a class="navbar-brand custom-navbar-link custom-navbar-brand" href="#">Jobverse</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link custom-navbar-link d-flex flex-col justify-content-center" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link custom-navbar-link d-flex flex-col justify-content-center" href="#">Home</a>
+                    </li>
+                </ul>
+                <div class=" my-2 my-lg-0 d-flex flex-col justify-content-center">
+                    <button type="button" class="btn btn-floating mx-1 custom-navbar-button">
+                        Switch to Employee
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <div class="container mt-5">
+        <div class="row gx-5 gap-x-4 justify-content-center align-items-center">
+            <div class="col-12 col-md-12 col-lg-7 profile-completeness">
+                <!-- Progress Bar -->
+                <div class="progress mb-3 mt-3">
+                    <div class="progress-bar custom-bar" role="progressbar" style="width: 30%;" aria-valuenow="30"
+                        aria-valuemin="0" aria-valuemax="100">30% Complete</div>
+                </div>
+                <!-- Profile Completeness Form - Step 1 -->
+                <div class="progress-heading mb-3">
+                    <h3>Create Your Company Profile</h3>
+                </div>
+                <form id="step1">
+                    <div class="form-group">
+                        <label for="name">Company Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="JobVerse" name="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Location</label>
+                        <input type="text" class="form-control" id="name" placeholder="Dublin" name="Location" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Number Of Employees</label>
+                        <input type="number" class="form-control" id="email" placeholder="2000" name="NumberOfEmployee"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="City">Phone Number</label>
+                        <input type="text" class="form-control" id="City" placeholder="+42,9033..." name="PhoneNumber"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Company Bio</label>
+                        <textarea class="form-control" id="bio" placeholder="Enter your company bio..." name="Bio"
+                            rows="5"></textarea required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Company Website Link</label>
+                        <input type="text" class="form-control" id="phone" placeholder="wwww.jobeverse.com"
+                            name="Website" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Company LinkedIn Profile</label>
+                        <input type="text" class="form-control" id="phone" placeholder="LinkedIn/jobeverse"
+                            name="LinkedIn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Company Twitter Page</label>
+                        <input type="text" class="form-control" id="phone" placeholder="x/jobeverse" name="Twitter" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Company Facebook Page</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Facebook/jobeverse"
+                            name="Facebook" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Company Logo</label>
+                        <input type="file" class="form-control-file" id="resume" name="Logo" required>
+                    </div>
+                    <!-- ... More contact information fields ... -->
+                    <button type="submit" class="btn custom-button mt-3" onclick="validateAndShowStep(2, 'step1')">Next</button>
+                </form>
+                <!-- Profile Completeness Form - Step 3 (Hidden by default) -->
+                <form id="step3" style="display: none;" class="roles-form">
+                    <p class="fs-14 dark-text">Here you are required to enter names of your two major Departments with
+                        nine Different Roles
+                        working in these Departments along with their salaries.</p>
+                    <div class="form-group">
+                        <label for="Department1">Department1 Name</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Software Development"
+                            name="Department1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Department2">Department 2 Name</label>
+                        <input type="text" class="form-control" id="phone"
+                            placeholder="Information Design & Documentation" name="Department2" required>
+                    </div>
+                    <div class="role-inputs">
+
+                    </div>
+                    <button type="button" class="btn custom-button mt-3" onclick="validateAndShowStep(4, 'step3')">Next</button>
+
+                </form>
+                <!-- Profile Completeness Form - Step 2 (Hidden by default) -->
+                <form id="step2" style="display: none;">
+                    <div class="form-group">
+                        <label for="OrdersCompleted">Orders Completed till now</label>
+                        <input type="number" class="form-control" id="phone" placeholder="3000" name="OrdersCompleted" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="EstimatedRevenue">Estimated Revenue till now </label>
+                        <input type="number" class="form-control" id="phone" placeholder="$7000"
+                            name="EstimatedRevenue" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ProductsSold">Products Sold till now</label>
+                        <input type="number" class="form-control" id="phone" placeholder="200" name="ProductsSold" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="SatisfiedCustomers">Satisfied Customers till now</label>
+                        <input type="number" class="form-control" id="phone" placeholder="1500"
+                            name="SatisfiedCustomers" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="CustomerGrowthPercentage">Customer Growth percentage</label>
+                        <input type="number" class="form-control" id="phone" placeholder="89"
+                            name="CustomerGrowthPercentage" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="EstablishedSince">Company Established Since</label>
+                        <input type="datetime-local" class="form-control" id="phone" placeholder="1993"
+                            name="EstablishedSince" required>
+                    </div>
+                    <button type="button" class="btn custom-button mt-3" onclick="validateAndShowStep(3, 'step2')">Next</button>
+                </form>
+                <!-- Profile Completeness Form - Step 4 (Hidden by default) -->
+                <form id="step4" class="salary-form" style="display: none;">
+                    <div id="salaryInputsContainer"></div>
+                    <button type="button" class="btn custom-button mt-3" onclick="completeProfile()" style="padding-bottom:20px">Submit
+                        Application</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-12 col-lg-5 d-flex justify-content-center">
+                <div class="bg-card">
+                    <div class="d-flex align-items-center gap-x-2 company-card">
+                        <div class="company-info">
+                            <img class="company-logo" src="~/images/logo-no-background.png"alt="">
+                        </div>
+                        <div>
+                            <h2 class="dark-text fs-14 mb-1">JobVerse</h2>
+                            <p class="gray-text fs-12 mb-0 fw-medium">Where Opportunities Meet Excellence!</p>
+                        </div>
+                    </div>
+                    <hr class="horizantal-line">
+                    <p class=" dark-text">Step into the future of recruitment with JobVerse, your ultimate
+                        destination for finding the perfect match for your team. Craft an engaging company profile that
+                        goes beyond a traditional resume – it's your canvas to showcase your brand's personality and
+                        values.
+                        At JobVerse, we understand the importance of connecting with top-tier talent. Our platform
+                        seamlessly combines global opportunities with local impact, offering you a dynamic space to
+                        build relationships with industry leaders and like-minded professionals.<br> Stand out in the
+                        crowd
+                        by creating a company profile that reflects your achievements, mission, and unique vision.
+                        Take advantage of our data-driven insights to make informed decisions, customize your
+                        recruitment solutions, and create an inclusive workplace that attracts diverse talent. Ready to
+                        redefine your hiring strategy? Take the first step – create your company profile on JobVerse
+                        today and open the door to a world of unparalleled possibilities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (if needed) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

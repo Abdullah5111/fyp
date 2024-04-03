@@ -1,0 +1,124 @@
+.custom-navbar {
+  background-color: #333a56 !important;
+}
+
+.custom-navbar-link {
+  font-size: 16px;
+  color: aliceblue !important;
+}
+
+.custom-navbar-brand {
+  font-size: 20px;
+}
+
+.custom-navbar-link:hover {
+  color: #dbe5e8 !important;
+}
+
+.custom-navbar-button {
+  background-color: #a9afb1 !important;
+  color: aliceblue;
+}
+
+.custom-navbar-button:hover {
+  background-color: #dbe5e8 !important;
+  color: #1f6f8e;
+}
+.progress-heading {
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9 !important;
+  padding: 10px; /* Adjust the padding as needed */
+  border-radius: 5px;
+}
+form label {
+  font-weight: 600;
+}
+.custom-button {
+  background-color: #333a56; /* Change this to your desired color */
+  color: #f9f9f9ff;
+}
+.custom-bar {
+  background-color: #52658f;
+}
+.bg-card {
+  box-sizing: border-box;
+  min-width: 0px;
+  max-width: 400px;
+  padding: 1.5rem;
+  background-color: white;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 8px;
+  max-height: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0px;
+}
+@media screen and (max-width: 1000px) {
+  .bg-card {
+    margin: 2em 1em;
+  }
+}
+.company-card {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  /* padding: 1rem; */
+}
+.company-info {
+  height: 3rem;
+  width: 3rem;
+  min-width: 3rem;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.company-info .company-logo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.dark-text {
+  color: #2d2d2c;
+}
+.gray-text {
+  color: rgb(118, 118, 118);
+}
+.horizantal-line {
+  border-top: 1px solid rgb(216, 216, 216);
+  width: 100%;
+  height: 1px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.next-btn {
+  cursor: pointer;
+  text-decoration: none !important;
+  text-align: center;
+  background-color: #333a56;
+  color: #f9f9f9;
+  padding: 8px 15px;
+  margin-top: 60px;
+  max-width: 200px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+  background-color: #acc2f1;
+}
+
+.custom-form-input:focus{
+  outline:none !important;
+  box-shadow: none;
+}

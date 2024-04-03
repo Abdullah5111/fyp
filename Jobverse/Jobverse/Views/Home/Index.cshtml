@@ -1,0 +1,409 @@
+<<<<<<< HEAD
+﻿<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer" />
+    <!-- Meta Description -->
+    <meta name="description" content="" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>Jobverse - Homepage</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,300,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/main.css" />
+</head>
+<body>
+    @{
+        Layout = "_Navbar";
+    }
+    @Model JobPosting;
+    <section class="post-area section-gap">
+        <div class="container">
+            <div class="row justify-content-center d-flex">
+                <div class="col-lg-8 post-list">
+                    <div class="cat-list-area">
+                        <ul class="cat-list">
+                            <li><a class="filter-button" data-category="all" href="#">All</a></li>
+                            <li><a class="filter-button" data-category="Full Time" href="#">Full Time</a></li>
+                            <li><a class="filter-button" data-category="Part Time" href="#">Part Time</a></li>
+                            <li><a class="filter-button" data-category="Intern" href="#">Intern</a></li>
+                            <!-- Add buttons for other job types -->
+                        </ul>
+                        <div id="selected-filter"></div>
+                        <button class="clear-filter-button">Clear Filter</button>
+                    </div>
+                    @foreach (var job in Model)
+                    {
+                        <div class="mt-3 no-result" id="no-results-message" style="display: none;">
+                            <p>No search results found.</p>
+                        </div>
+                        <div class="single-post" data-category="@job.Type" data-location ="@job.Location">
+                            <div class="details">
+                                <div class="title d-flex flex-row justify-content-between">
+                                    <div class="titles">
+                                        <a href="single.html"><h4>@job.JobTitle</h4></a>
+                                        <h6>@job.Location</h6>
+                                    </div>
+                                    <ul class="btns">
+                                        <li>
+                                            <a href="#"><span class="fa fa-heart"></span></a>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("jobApplication", "jobApplication", new { jobId = job.Id })" class="link-danger text-decoration-none">Apply</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p>
+                                    @job.JobDescription
+                                </p>
+                                <h5>Job Nature: @job.Type</h5>
+                                <p class="address">
+                                    <span class="lnr lnr-map"></span> @job.Location
+                                </p>
+                                <p class="address">
+                                    <span class="lnr lnr-database"></span> @job.SalaryRange
+                                </p>
+                            </div>
+                        </div>
+                    }
+                    <a class="text-uppercase loadmore-btn mx-auto d-block" >Load More</a>
+                </div>
+                <div class="col-lg-4 sidebar">
+                    <div class="single-slidebar">
+                        <h4>Jobs by Location</h4>
+                        <ul class="cat-list">
+                            <li>
+                                <a class="justify-content-between d-flex filter-button" data-type="all" data-location="Lahore" href="#"><p>Lahore</p><span>57</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex filter-button" data-type="all" data-location="Karachi" href="#"><p>Karachi</p><span>57</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex filter-button" data-type="all" data-location="Islamabad" href="#"><p>Islamabad</p><span>57</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex filter-button" data-type="all" data-location="Rawalpindi" href="#"><p>Rawalpindi</p><span>57</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex filter-button" data-type="all" data-location="Multan" href="#"><p>Multan</p><span>57</span></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="single-slidebar">
+                        <h4>Jobs by Category</h4>
+                        <ul class="cat-list">
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Technology</p><span>37</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Media & News</p><span>57</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Government</p><span>33</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Medical</p><span>36</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Restaurants</p><span>47</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Developer</p><span>27</span></a>
+                            </li>
+                            <li>
+                                <a class="justify-content-between d-flex" href="category.html"><p>Accounting</p><span>17</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start call-to-action Area -->
+    <section class="callto-action-area section-gap" id="join">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content col-lg-9">
+                    <div class="title text-center">
+                        <h1 class="mb-10 text-white">Join us today</h1>
+                        <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <a class="primary-btn" href="#">Find a Job</a>
+                        <a class="primary-btn" href="#">Hire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-area section-gap"></footer>
+
+    <script src="~/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7f" crossorigin="anonymous"></script>
+    <script src="~/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/js/easing.min.js"></script>
+    <script src="~/js/hoverIntent.js"></script>
+    <script src="~/js/superfish.min.js"></script>
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.sticky.js"></script>
+    <script src="~/js/jquery.nice-select.min.js"></script>
+    <script src="~/js/parallax.min.js"></script>
+    <script src="~/js/mail-script.js"></script>
+    <script src="~/js/main.js"></script>
+   
+    <script>
+        $(document).ready(function () {
+            var clearFilterButtons = $(".clear-filter-button");
+            clearFilterButtons.css("visibility", "hidden");
+
+            
+             var category = null;
+             var location = null;
+            var selectedFilter = null;
+            // Filter button click event
+            $(".filter-button").click(function () {
+                console.log(category);
+
+                var fullTime = $(".clear-filter-button");
+                fullTime.css("visibility", "visible");
+
+                var clickedCategory = $(this).data("category");
+                var clickedLocation = $(this).data("location");
+
+                //console.log("Clicked Category: " + clickedCategory);
+                //console.log("Clicked Location: " + clickedLocation);
+
+                // Update category and location only if they are not null
+                if (clickedCategory !== undefined) {
+                    category = clickedCategory;
+                }
+                if (clickedLocation !== undefined) {
+                    location = clickedLocation;
+                }
+
+                //console.log("Current Category: " + category);
+                //console.log("Current Location: " + location);
+                //console.log("Filtering by category: " + category + " Location: " + location);
+               
+               
+                if(location == null)
+                {
+                     filterJobs(category);
+                }
+                if(category == null)
+                {
+                    filterJobsLocation(location);
+                }
+                else if(location != null && category != null)
+                {
+                    //console.log(location+" "+category);
+                    filterjobsByLocationAndCategory(location,category);
+                }
+                resetLoadMoreButton();
+            });
+
+            // Clear filter button click event
+            $(".clear-filter-button").click(function () {
+                console.log("Clearing filter");
+                var fullTime = $(".single-post");
+                fullTime.css("display", "block");
+                fullTime.css("height", "272px");
+                category = null;
+                location = null;
+                var noResultsMessage = document.getElementById("no-results-message");
+                noResultsMessage.style.display = "none";
+                var fullTime = $(".loadmore-btn");
+                fullTime.css("visibility", "visible");
+                var full = $(".clear-filter-button");
+                full.css("visibility", "hidden");
+                resetLoadMoreButton();
+               // filterJobs("all");
+            });
+
+
+            function filterJobs(category) {
+
+                console.log("Filtering jobs: " + category);
+
+                // Hide all job posts
+                var fullTime = $(".single-post");
+                fullTime.css("display", "none");
+                var height = fullTime.css("height");
+                console.log("Height: ", height);
+                fullTime.css("height", "0px");
+                if (category === "all") {
+                    // Show all job posts
+                    $(".single-post").show();
+                } else {
+                    console.log(category);
+                    // Show job posts with the matching category
+                    var $matchingPosts = $(".single-post[data-category='" + category + "']");
+                    console.log("Matching posts: " + $matchingPosts.length);
+                    if($matchingPosts.length === 0)
+                    {
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "flex";
+                        noResultsMessage.style.justifyContent = "center";
+
+                   
+                        // Hide all job posts
+                        var fullTime = $(".loadmore-btn");
+                        fullTime.css("display", "none");
+
+                    }
+                    else
+                    {
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "none";
+                        console.log($matchingPosts);
+                        $matchingPosts.css("display", "block");
+                        fullTime.css("height", "272px");
+
+                    }
+                }
+            }
+            function filterJobsLocation(location) {
+
+                console.log("Filtering jobs: " + location);
+
+                // Hide all job posts
+                var fullTime = $(".single-post");
+                //fullTime.css("visibility", "hidden");
+                fullTime.css("display", "none");
+                var height = fullTime.css("height");
+                console.log("Height: ", height);
+                fullTime.css("height", "0px");
+                console.log("Height: ", height);
+
+                if (location === "all") {
+                    // Show all job posts
+                    $(".single-post").show();
+                } else {
+                    console.log(location);
+                    // Show job posts with the matching category
+                    var $matchingPosts = $(".single-post[data-location='" + location + "']");
+                    console.log("Matching posts: " + $matchingPosts.length);
+                    console.log($matchingPosts);
+                    if ($matchingPosts.length === 0) {
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "flex";
+                        noResultsMessage.style.justifyContent = "center";
+
+
+                        // Hide all job posts
+                        var fullTime = $(".loadmore-btn");
+                        fullTime.css("display", "none");
+
+                    }
+                    else{
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "none";
+                    
+                        //$matchingPosts.css("visibility", "visible");
+                        $matchingPosts.css("display", "block");
+                        fullTime.css("height", "272px");
+                    }
+                }
+            }
+            function filterjobsByLocationAndCategory(location, category)
+            {
+                console.log("Filtering jobs by location and Category : "+location+ "'"+category);
+                // Hide all job posts
+                var fullTime = $(".single-post");
+                fullTime.css("display", "none");
+                fullTime.css("height", "0px");
+
+                // Filter based on both type and location
+                if (category === "all" && location === "all") {
+                    // Show all job posts
+                    fullTime.css("visibility", "visible");
+                    fullTime.css("height", "272px");
+                } else {
+                    console.log(category, location);
+                    // Show job posts with matching type and location
+                    var $matchingPosts = $(".single-post[data-category='" + category + "'][data-location='" + location + "']");
+                    console.log("Matching posts: " + $matchingPosts.length);
+                    console.log($matchingPosts);
+                    if ($matchingPosts.length === 0) {
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "flex";
+                        noResultsMessage.style.justifyContent = "center";
+
+
+                        // Hide all job posts
+                        var fullTime = $(".loadmore-btn");
+                fullTime.css("display", "none");
+
+                    }
+                    else {
+                        var noResultsMessage = document.getElementById("no-results-message");
+                        noResultsMessage.style.display = "none";
+
+                  
+                        $matchingPosts.css("display", "block");
+                        $matchingPosts.css("height", "272px");
+                }
+                }
+            }
+
+            // Load more button click event
+            $(".loadmore-btn").click(function () {
+                var visibleJobs = $(".single-post:visible").length;
+                var totalJobs = $(".single-post").length;
+
+                // Check if all jobs are already visible
+                if (visibleJobs >= totalJobs) {
+                    // If all jobs are visible, show only three jobs
+                    $(".single-post").hide();
+                    $(".single-post:lt(3)").show();
+                    $(this).text("Load More");
+                } else {
+                    // Show all jobs
+                    $(".single-post").show();
+                    $(this).text("Show Less");
+                }
+                resetLoadMoreButton();
+            });
+
+            // Initial load: Show only three jobs
+            $(".single-post:gt(2)").hide();
+            function resetLoadMoreButton() {
+                var visibleJobs = $(".single-post:visible").length;
+                var totalJobs = $(".single-post").length;
+
+                // Update the button text based on the current state
+                if (visibleJobs >= totalJobs) {
+                    $(".loadmore-btn").text("Show Less");
+                } else {
+                    $(".loadmore-btn").text("Load More");
+                }
+            }
+        });
+
+    </script>
+</body>
+</html>
+=======
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+>>>>>>> d829be1cb981220b5f969794e0110d8ce0b5f73a

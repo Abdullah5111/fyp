@@ -1,0 +1,214 @@
+2023-12-26 22:46:37.698 +05:00 [INF] User profile is available. Using 'C:\Users\accer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 22:46:38.125 +05:00 [INF] Now listening on: https://localhost:7289
+2023-12-26 22:46:38.142 +05:00 [INF] Now listening on: http://localhost:5144
+2023-12-26 22:46:38.163 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 22:46:38.166 +05:00 [INF] Hosting environment: Development
+2023-12-26 22:46:38.168 +05:00 [INF] Content root path: C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\
+2023-12-26 22:46:39.260 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/ - -
+2023-12-26 22:46:39.366 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-26 22:46:39.441 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Jobverse.Controllers.HomeController (Jobverse).
+2023-12-26 22:46:39.457 +05:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 22:46:39.685 +05:00 [INF] Executed ViewResult - view Index executed in 228.2566ms.
+2023-12-26 22:46:39.693 +05:00 [INF] Executed action Jobverse.Controllers.HomeController.Index (Jobverse) in 246.6213ms
+2023-12-26 22:46:39.697 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-26 22:46:39.748 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/ - - - 200 - text/html;+charset=utf-8 497.6354ms
+2023-12-26 22:46:39.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/site.css - -
+2023-12-26 22:46:39.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Jobverse.styles.css?v=L2S1Ykmsc3MIoNEn0C0FBB5H5gXarh2oRdUZpB_tC6Q - -
+2023-12-26 22:46:39.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-26 22:46:39.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - -
+2023-12-26 22:46:39.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-26 22:46:39.794 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 0 - 9.8615ms
+2023-12-26 22:46:39.795 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 0 - 11.2111ms
+2023-12-26 22:46:39.800 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 22:46:39.796 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/site.css - - - 404 0 - 11.9205ms
+2023-12-26 22:46:39.798 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/js/site.js - -
+2023-12-26 22:46:39.808 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/js/site.js - - - 404 0 - 9.0807ms
+2023-12-26 22:46:39.806 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 5.9401ms
+2023-12-26 22:46:39.795 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - - - 404 0 - 11.0492ms
+2023-12-26 22:46:39.809 +05:00 [INF] Sending file. Request path: '/Jobverse.styles.css'. Physical path: 'C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css'
+2023-12-26 22:46:39.821 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Jobverse.styles.css?v=L2S1Ykmsc3MIoNEn0C0FBB5H5gXarh2oRdUZpB_tC6Q - - - 200 1125 text/css 36.9503ms
+2023-12-26 22:46:39.849 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-26 22:46:39.953 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.5208ms
+2023-12-26 22:46:40.059 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/favicon.ico - -
+2023-12-26 22:46:40.068 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/favicon.ico - - - 404 0 - 8.6505ms
+2023-12-26 22:47:18.137 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/resume - -
+2023-12-26 22:47:18.143 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/resume - - - 404 0 - 5.8924ms
+2023-12-26 22:47:25.321 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/buildresume - -
+2023-12-26 22:47:25.328 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/buildresume - - - 404 0 - 6.8204ms
+2023-12-26 22:47:46.842 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/resume/buildresume - -
+2023-12-26 22:47:46.852 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-26 22:47:46.858 +05:00 [INF] Route matched with {action = "buildResume", controller = "Resume"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult buildResume() on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-26 22:47:46.866 +05:00 [INF] Rendering buildResume view.
+2023-12-26 22:47:46.871 +05:00 [INF] Executing ViewResult, running view buildResume.
+2023-12-26 22:47:46.909 +05:00 [INF] Executed ViewResult - view buildResume executed in 38.923ms.
+2023-12-26 22:47:46.912 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.buildResume (Jobverse) in 47.6887ms
+2023-12-26 22:47:46.915 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-26 22:47:46.928 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/resume/buildresume - - - 200 - text/html;+charset=utf-8 85.3537ms
+2023-12-26 22:47:46.978 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/applyjob.css - -
+2023-12-26 22:47:46.978 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 22:47:46.983 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/applyjob.css - - - 404 0 - 4.5724ms
+2023-12-26 22:47:46.984 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 6.1212ms
+2023-12-26 22:47:47.037 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-26 22:47:47.059 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.8706ms
+2023-12-26 22:59:48.354 +05:00 [INF] User profile is available. Using 'C:\Users\accer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-26 22:59:48.748 +05:00 [INF] Now listening on: https://localhost:7289
+2023-12-26 22:59:48.753 +05:00 [INF] Now listening on: http://localhost:5144
+2023-12-26 22:59:48.761 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-26 22:59:48.763 +05:00 [INF] Hosting environment: Development
+2023-12-26 22:59:48.765 +05:00 [INF] Content root path: C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\
+2023-12-26 22:59:53.627 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/ - -
+2023-12-26 22:59:53.747 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-26 22:59:53.845 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Jobverse.Controllers.HomeController (Jobverse).
+2023-12-26 22:59:53.872 +05:00 [INF] Executing ViewResult, running view Index.
+2023-12-26 22:59:54.210 +05:00 [INF] Executed ViewResult - view Index executed in 339.9187ms.
+2023-12-26 22:59:54.227 +05:00 [INF] Executed action Jobverse.Controllers.HomeController.Index (Jobverse) in 376.8256ms
+2023-12-26 22:59:54.232 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-26 22:59:54.308 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/ - - - 200 - text/html;+charset=utf-8 689.2947ms
+2023-12-26 22:59:54.338 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-26 22:59:54.350 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/site.css - -
+2023-12-26 22:59:54.351 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/Jobverse.styles.css?v=L2S1Ykmsc3MIoNEn0C0FBB5H5gXarh2oRdUZpB_tC6Q - -
+2023-12-26 22:59:54.351 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - -
+2023-12-26 22:59:54.356 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-26 22:59:54.508 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 0 - 169.9188ms
+2023-12-26 22:59:54.508 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/site.css - - - 404 0 - 157.7453ms
+2023-12-26 22:59:54.513 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - - - 404 0 - 161.4943ms
+2023-12-26 22:59:54.519 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 0 - 163.3404ms
+2023-12-26 22:59:54.555 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/js/site.js - -
+2023-12-26 22:59:54.555 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 22:59:54.558 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/js/site.js - - - 404 0 - 2.9934ms
+2023-12-26 22:59:54.580 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-26 22:59:54.591 +05:00 [INF] Sending file. Request path: '/Jobverse.styles.css'. Physical path: 'C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\obj\Debug\net6.0\scopedcss\bundle\Jobverse.styles.css'
+2023-12-26 22:59:54.704 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 149.7714ms
+2023-12-26 22:59:54.759 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/Jobverse.styles.css?v=L2S1Ykmsc3MIoNEn0C0FBB5H5gXarh2oRdUZpB_tC6Q - - - 200 1125 text/css 408.3466ms
+2023-12-26 22:59:54.888 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 308.0590ms
+2023-12-26 22:59:55.058 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/favicon.ico - -
+2023-12-26 22:59:55.069 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/favicon.ico - - - 404 0 - 11.0903ms
+2023-12-26 23:00:05.370 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/resume/buildresume - -
+2023-12-26 23:00:05.373 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-26 23:00:05.379 +05:00 [INF] Route matched with {action = "buildResume", controller = "Resume"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult buildResume() on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-26 23:00:05.389 +05:00 [INF] Rendering buildResume view.
+2023-12-26 23:00:05.392 +05:00 [INF] Executing ViewResult, running view buildResume.
+2023-12-26 23:00:05.425 +05:00 [INF] Executed ViewResult - view buildResume executed in 33.8128ms.
+2023-12-26 23:00:05.428 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.buildResume (Jobverse) in 39.7002ms
+2023-12-26 23:00:05.431 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-26 23:00:05.439 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/resume/buildresume - - - 200 - text/html;+charset=utf-8 69.2743ms
+2023-12-26 23:00:05.493 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/applyjob.css - -
+2023-12-26 23:00:05.493 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 23:00:05.501 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.1035ms
+2023-12-26 23:00:05.501 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-26 23:00:05.520 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.0637ms
+2023-12-26 23:00:05.540 +05:00 [INF] Sending file. Request path: '/css/applyjob.css'. Physical path: 'C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\wwwroot\css\applyJob.css'
+2023-12-26 23:00:05.550 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/applyjob.css - - - 200 1979 text/css 56.6808ms
+2023-12-26 23:02:37.759 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7289/resume/reviewResume application/x-www-form-urlencoded 368
+2023-12-26 23:02:37.765 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.reviewResume (Jobverse)'
+2023-12-26 23:02:37.804 +05:00 [INF] Route matched with {action = "reviewResume", controller = "Resume"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult reviewResume(Jobverse.Models.Resume.Resume.ResumeModel) on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-26 23:02:37.856 +05:00 [INF] Rendering reviewResume view.
+2023-12-26 23:02:37.858 +05:00 [INF] Executing ViewResult, running view reviewResume.
+2023-12-26 23:02:38.039 +05:00 [INF] Executed ViewResult - view reviewResume executed in 182.1763ms.
+2023-12-26 23:02:38.042 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.reviewResume (Jobverse) in 233.6509ms
+2023-12-26 23:02:38.045 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.reviewResume (Jobverse)'
+2023-12-26 23:02:38.050 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7289/resume/reviewResume application/x-www-form-urlencoded 368 - 200 - text/html;+charset=utf-8 290.4501ms
+2023-12-26 23:02:38.100 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/reviewapplication.css - -
+2023-12-26 23:02:38.102 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-26 23:02:38.111 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.8995ms
+2023-12-26 23:02:38.111 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-26 23:02:38.131 +05:00 [INF] Sending file. Request path: '/css/reviewapplication.css'. Physical path: 'C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\wwwroot\css\reviewApplication.css'
+2023-12-26 23:02:38.134 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/reviewapplication.css - - - 200 4208 text/css 33.5718ms
+2023-12-26 23:02:38.138 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.8326ms
+2023-12-26 23:02:41.529 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7289/resume/GeneratePdf application/x-www-form-urlencoded 45
+2023-12-26 23:02:41.541 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse)'
+2023-12-26 23:02:41.552 +05:00 [INF] Route matched with {action = "GeneratePdf", controller = "Resume"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GeneratePdf(Jobverse.Models.Resume.Resume.ResumeModel) on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-26 23:02:41.732 +05:00 [INF] Generating PDF.
+2023-12-26 23:02:47.866 +05:00 [INF] PDF generated and uploaded successfully.
+2023-12-26 23:02:47.871 +05:00 [INF] Executing FileContentResult, sending file with download name 'Resume.pdf' ...
+2023-12-26 23:02:47.883 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse) in 6327.3187ms
+2023-12-26 23:02:47.886 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse)'
+2023-12-26 23:02:47.888 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7289/resume/GeneratePdf application/x-www-form-urlencoded 45 - 200 14941 application/pdf 6358.4291ms
+2023-12-26 23:04:46.280 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7289/resume/GeneratePdf application/x-www-form-urlencoded 45
+2023-12-26 23:04:46.286 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse)'
+2023-12-26 23:04:46.291 +05:00 [INF] Route matched with {action = "GeneratePdf", controller = "Resume"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GeneratePdf(Jobverse.Models.Resume.Resume.ResumeModel) on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-26 23:04:46.297 +05:00 [INF] Generating PDF.
+2023-12-26 23:04:46.900 +05:00 [INF] PDF generated and uploaded successfully.
+2023-12-26 23:04:46.903 +05:00 [INF] Executing FileContentResult, sending file with download name 'Resume.pdf' ...
+2023-12-26 23:04:46.908 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse) in 611.6084ms
+2023-12-26 23:04:46.910 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.GeneratePdf (Jobverse)'
+2023-12-26 23:04:46.913 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7289/resume/GeneratePdf application/x-www-form-urlencoded 45 - 200 14941 application/pdf 632.5243ms
+2023-12-27 22:48:58.508 +05:00 [INF] User profile is available. Using 'C:\Users\accer\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-27 22:48:58.846 +05:00 [INF] Now listening on: https://localhost:7289
+2023-12-27 22:48:59.200 +05:00 [INF] Now listening on: http://localhost:5144
+2023-12-27 22:48:59.215 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-27 22:48:59.220 +05:00 [INF] Hosting environment: Development
+2023-12-27 22:48:59.223 +05:00 [INF] Content root path: C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\
+2023-12-27 22:49:00.085 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/ - -
+2023-12-27 22:49:00.218 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-27 22:49:00.296 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Jobverse.Controllers.HomeController (Jobverse).
+2023-12-27 22:49:00.319 +05:00 [INF] Executing ViewResult, running view Index.
+2023-12-27 22:49:00.588 +05:00 [INF] Executed ViewResult - view Index executed in 270.7242ms.
+2023-12-27 22:49:00.601 +05:00 [INF] Executed action Jobverse.Controllers.HomeController.Index (Jobverse) in 300.4462ms
+2023-12-27 22:49:00.606 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.HomeController.Index (Jobverse)'
+2023-12-27 22:49:00.674 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/ - - - 200 - text/html;+charset=utf-8 790.7035ms
+2023-12-27 22:49:00.835 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-27 22:49:00.836 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/site.css - -
+2023-12-27 22:49:00.837 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-27 22:49:00.837 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - -
+2023-12-27 22:49:00.837 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-27 22:49:00.936 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/site.css - - - 404 0 - 99.2767ms
+2023-12-27 22:49:00.936 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 0 - 100.9718ms
+2023-12-27 22:49:00.939 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - - - 404 0 - 102.4029ms
+2023-12-27 22:49:00.940 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 103.4955ms
+2023-12-27 22:49:00.950 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 0 - 112.7143ms
+2023-12-27 22:49:00.954 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/js/site.js - -
+2023-12-27 22:49:00.988 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-27 22:49:01.031 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/js/site.js - - - 404 0 - 77.1383ms
+2023-12-27 22:49:01.139 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.1951ms
+2023-12-27 22:49:04.670 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/jobposting/jobposting - -
+2023-12-27 22:49:04.678 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.JobPostingController.JobPosting (Jobverse)'
+2023-12-27 22:49:04.687 +05:00 [INF] Route matched with {action = "JobPosting", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] JobPosting() on controller Jobverse.Controllers.JobPostingController (Jobverse).
+2023-12-27 22:49:04.704 +05:00 [INF] Executing ViewResult, running view JobPosting.
+2023-12-27 22:49:04.772 +05:00 [INF] Executed ViewResult - view JobPosting executed in 68.5629ms.
+2023-12-27 22:49:04.778 +05:00 [INF] Executed action Jobverse.Controllers.JobPostingController.JobPosting (Jobverse) in 83.6665ms
+2023-12-27 22:49:04.782 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.JobPostingController.JobPosting (Jobverse)'
+2023-12-27 22:49:04.792 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/jobposting/jobposting - - - 200 - text/html;+charset=utf-8 121.9967ms
+2023-12-27 22:49:04.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-27 22:49:04.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-12-27 22:49:04.851 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/site.css - -
+2023-12-27 22:49:04.852 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/JobPost.css - -
+2023-12-27 22:49:04.905 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 53.8197ms
+2023-12-27 22:49:04.910 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 0 - 58.6159ms
+2023-12-27 22:49:04.911 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/site.css - - - 404 0 - 59.8657ms
+2023-12-27 22:49:04.913 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/JobPost.css - - - 404 0 - 60.9229ms
+2023-12-27 22:49:04.915 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - -
+2023-12-27 22:49:04.917 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-12-27 22:49:04.919 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/js/site.js - -
+2023-12-27 22:49:04.921 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-27 22:49:04.927 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/jquery/dist/jquery.min.js - - - 404 0 - 12.1404ms
+2023-12-27 22:49:04.929 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 0 - 11.7322ms
+2023-12-27 22:49:04.932 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/js/site.js - - - 404 0 - 12.4081ms
+2023-12-27 22:49:04.967 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.9265ms
+2023-12-27 22:49:23.994 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7289/jobPosting/PostJob application/x-www-form-urlencoded 161
+2023-12-27 22:49:24.004 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.JobPostingController.PostJob (Jobverse)'
+2023-12-27 22:49:24.049 +05:00 [INF] Route matched with {action = "PostJob", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PostJob(Jobverse.Models.JobPosting) on controller Jobverse.Controllers.JobPostingController (Jobverse).
+2023-12-27 22:49:24.276 +05:00 [INF] Start processing HTTP request POST https://localhost:7199/api/JobPosting
+2023-12-27 22:49:24.282 +05:00 [INF] Sending HTTP request POST https://localhost:7199/api/JobPosting
+2023-12-27 22:49:24.361 +05:00 [INF] Received HTTP response headers after 67.404ms - 201
+2023-12-27 22:49:24.365 +05:00 [INF] End processing HTTP request after 96.9737ms - 201
+2023-12-27 22:49:24.373 +05:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType0`2[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-12-27 22:49:24.443 +05:00 [INF] Executed action Jobverse.Controllers.JobPostingController.PostJob (Jobverse) in 387.375ms
+2023-12-27 22:49:24.501 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.JobPostingController.PostJob (Jobverse)'
+2023-12-27 22:49:24.511 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7289/jobPosting/PostJob application/x-www-form-urlencoded 161 - 200 - application/json;+charset=utf-8 516.5794ms
+2023-12-27 22:49:48.068 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/resume/buildresume - -
+2023-12-27 22:49:48.080 +05:00 [INF] Executing endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-27 22:49:48.087 +05:00 [INF] Route matched with {action = "buildResume", controller = "Resume"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult buildResume() on controller Jobverse.Controllers.ResumeController (Jobverse).
+2023-12-27 22:49:48.093 +05:00 [INF] Rendering buildResume view.
+2023-12-27 22:49:48.095 +05:00 [INF] Executing ViewResult, running view buildResume.
+2023-12-27 22:49:48.120 +05:00 [INF] Executed ViewResult - view buildResume executed in 25.8656ms.
+2023-12-27 22:49:48.123 +05:00 [INF] Executed action Jobverse.Controllers.ResumeController.buildResume (Jobverse) in 31.5575ms
+2023-12-27 22:49:48.126 +05:00 [INF] Executed endpoint 'Jobverse.Controllers.ResumeController.buildResume (Jobverse)'
+2023-12-27 22:49:48.134 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/resume/buildresume - - - 200 - text/html;+charset=utf-8 66.1430ms
+2023-12-27 22:49:48.163 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/css/applyjob.css - -
+2023-12-27 22:49:48.170 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - -
+2023-12-27 22:49:48.176 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7289/_vs/browserLink - -
+2023-12-27 22:49:48.178 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_framework/aspnetcore-browser-refresh.js - - - 200 11986 application/javascript;+charset=utf-8 8.4144ms
+2023-12-27 22:49:48.204 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 28.4230ms
+2023-12-27 22:49:48.212 +05:00 [INF] Sending file. Request path: '/css/applyjob.css'. Physical path: 'C:\Users\accer\Desktop\developerhunter-main\Jobverse\Jobverse\wwwroot\css\applyJob.css'
+2023-12-27 22:49:48.229 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7289/css/applyjob.css - - - 200 1979 text/css 65.9949ms

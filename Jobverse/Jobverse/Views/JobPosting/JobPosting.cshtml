@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include jQuery UI -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!-- Include jQuery (use the newer version) -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> <!-- Include jQuery UI -->
+    <!-- Include Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/JobPosting.css" />
+    <link rel="stylesheet" href="~/css/JobPost.css" />
+
+</head>
+<body>
+    @*<form id="jobPostForm" action="https://localhost:7199/api/JobPostings" method="post">*@
+    <form action="/jobPosting/PostJob" id="jobPostForm" method="post">
+        <div class="container register">
+            <div class="row">
+                <div class="col-md-9 register-right">
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="employee" role="tabpanel" aria-labelledby="employee-tab">
+                            <h3 class="register-heading">Post a Job</h3>
+                            <div class="row register-form">
+                                <!-- Employee Registration Form -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Job Title *" id="job_title" name="JobTitle" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Job Description *" id="job_desc" name="JobDescription" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Location *" id="location" name="Location" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="Type" id="type">
+                                            <option class="hidden" selected disabled>Please select your job type</option>
+                                            <option value="Full-Time">Full-Time</option>
+                                            <option value="Part-Time">Part-Time</option>
+                                            <option value="Temporary">Temporary</option>
+                                            <option value="Contract">Contract</option>
+                                            <option value="Internship">Internship</option>
+                                            <option value="Fresher">Fresher</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Salary Range *" id="salary" name="SalaryRange" value="" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="Experience" id="experience">
+                                            <option class="hidden" selected disabled>The experience you want</option>
+                                            <option value="0">0 year</option>
+                                            <option value="1">1 year</option>
+                                            <option value="2">2 years</option>
+                                            <option value="3">3 years</option>
+                                            <option value="4">4 years</option>
+                                            <option value="5">5 years</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <select class="form-control" name="Qualifications" id="qualification">
+                                            <option class="hidden" selected disabled>The qualification you want</option>
+                                            <option value="Intermediate">Intermediate</option>
+                                            <option value="Bachelors">Bachelors</option>
+                                            <option value="Masters">Masters</option>
+                                            <option value="PhD">PhD</option>
+                                        </select>
+                                    </div>
+
+
+@*                                    <div class="form-group">
+                                        <label for="postedDate">Posted Date:</label>
+                                        <input type="text" id="postedDate" name="PostedDate" class="form-control" placeholder="Select the date *" value="" required />
+                                    </div>*@
+                                    <div class="form-group">
+                                    <div class="form-group">
+                                        <label for="postedDate">Posted Date:</label>
+                                        <input type="text" id="postedDate" name="PostedDate" class="form-control" placeholder="Select the date *" value="" required />
+                                            <input type="text" id="company" name="Company" class="form-control" placeholder="Select the date *" value="nets123" style="display:none" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="lateDate">Late Date:</label>
+                                        <input type="text" id="lateDate" name="LastDate" class="form-control" placeholder="Select the date *" value="" required />
+                                    </div>
+                                    @*<input type="submit" class="btnRegister" value="Post" />*@
+                                    <button type="submit"
+                                                class="btnRegister text-uppercase next-btn mx-auto d-block" value="Post"
+                                      >Post</button>
+                                </div>
+                                <!-- End of Employee Registration Form -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="hirer" role="tabpanel" aria-labelledby="hirer-tab">
+                            <!-- Remove the content inside this tab -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Your custom styles can be added to index.css -->
+
+    <script>
+        // Ensure the document is ready before executing jQuery
+        $(document).ready(function () {
+            // Initialize datepicker for postedDate and lateDate fields
+            $("#postedDate").datepicker();
+            $("#lateDate").datepicker();
+        });
+    </script>
+   
+    @*<script>
+        document.getElementById('jobPostForm').addEventListener('submit', async function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+
+            try {
+                const response = await fetch('https://localhost:7199/api/JobPostings', {
+                    method: 'POST',
+                    body: formData
+                });
+
+
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log('Job posted successfully:', data);
+                    alert('Job posted successfully');
+                    document.getElementById('jobPostForm').reset(); // Clear the form
+                } else {
+                    console.error('Error:', response.statusText);
+                    // Optionally, handle errors or display an error message
+                }
+            } catch (error) {
+                console.error('Error:', error.message);
+                // Handle other types of errors
+
+    </script>*@
+
+   
+    <script>
+            function completeProfile() {
+                // Get form data
+                const jobtitle = document.getElementById("job_title").value;
+                const jobdescription = document.getElementById("job_desc").value;
+                const location = document.getElementById("location").value;
+                const type = document.getElementById("type").value;
+                const salary = document.getElementById("salary").value;
+                const experience = document.getElementById("experience").value;
+                const qualification = document.getElementById("qualification").value;
+                const postdate = new Date(document.getElementById("postedDate").value).toISOString();
+                const company = new Date(document.getElementById("company").value).toISOString();
+                const lastdate = new Date(document.getElementById("lateDate").value).toISOString();
+                
+
+
+
+            // JSON object
+                const formData = {
+                    Id: 1,
+                    Email: email@gmail.com,
+                    JobTitle: jobtitle,
+                    JobDescription: jobdescription,
+                    Location: location,
+                    Type: type,
+                    SalaryRange: salary,
+                    Experience: experience,
+                    Qualifications: qualification,
+                    PostedDate: postdate,
+                    LastDate: lastdate,
+                    Company = company,
+                };
+
+                // Send form data to the controller
+                $.ajax({
+                    type: "POST",
+                    url: "/JobPosting/Post",
+                    data: JSON.stringify(formData),
+                    contentType: "application/json",
+                    success: function (data) {
+                        alert("Job posted successfully!");
+                    },
+                    error: function (error) {
+                        console.error("Error:", error);
+                    },
+                });
+            }
+
+
+        </script>
+</body>
+</html>

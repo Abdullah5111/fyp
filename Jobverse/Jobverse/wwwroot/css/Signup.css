@@ -1,0 +1,93 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+body {
+  font-family: 'Montserrat';font-size: 22px;
+  background-color: #1f6f8e;
+}
+
+.custom-font-size{
+  font-size: 18px;
+}
+
+.custom-font-size-label{
+  font-size: 14px;
+}
+
+.custom-main-div{
+  margin: 40px;
+}
+
+.custom-logo {
+  width: 300px;
+}
+
+.custom-google-icon-button {
+  background-color: #1f6f8e;
+  border-radius: 3px;
+  border: 0px;
+}
+
+.custom-google-icon-button:hover {
+  background-color: #42acd4;
+}
+
+.custom-google-icon {
+  color: aliceblue;
+}
+
+.custom-login-button {
+  background-color: #1f6f8e !important;
+}
+
+.custom-login-button:hover {
+  background-color: #42acd4 !important;
+}
+
+.custom-div-left {
+  background-color: #dbe5e8;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-form-div{
+  background-color: #f5f7f7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-form{
+    width: 300px;
+}
+
+.custom-form-input:focus{
+  outline:none !important;
+  box-shadow: none;
+}
+
+input:focus{
+  outline:none !important;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-div-left {
+    display: none;
+  }
+}

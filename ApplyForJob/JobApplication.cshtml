@@ -1,0 +1,285 @@
+﻿@{
+	// Retrieve the JobId from the ViewBag
+	var jobId = ViewBag.JobId;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Profile Completeness</title>
+	<!-- Include Bootstrap CSS -->
+	<link rel="stylesheet"
+		  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/jobApplication.css" />
+</head>
+
+  <body>
+	<div class="container mt-5">
+	  <div class="row gx-5 gap-x-4 justify-content-center align-items-center">
+		<div class="col-12 col-md-12 col-lg-7 profile-completeness">
+		  <!-- Progress Bar -->
+		  <div class="progress mb-3 mt-3">
+			<div
+			  class="progress-bar custom-bar"
+			  role="progressbar"
+			  style="width: 0%"
+			  aria-valuenow="0"
+			  aria-valuemin="0"
+			  aria-valuemax="100"
+			>
+			  0% Complete
+			</div>
+		  </div>
+		  <!-- Profile Completeness Form - Step 1 -->
+		  <div class="progress-heading mb-3">
+			<h3>Add your contact information</h3>
+		  </div>
+				<form action="/jobApplication/SaveApplication" method="post" enctype="multipart/form-data">
+		  <div id="step1">
+		  @*<form id="step1">*@
+			<div class="form-group">
+				<div class="form-outline mb-4">
+					@*@Console.WriteLine(jobId);*@
+								<input id="jobId" type="hidden" value="@jobId" name="JobId" />
+				  <input type="text" id="first_name" class="form-control custom-form-input"
+					placeholder="Enter name" name="Applier" />
+				</div>
+			</div>
+			@*<div class="form-group">
+				<div class="form-outline mb-4">
+				  <input type="text" id="last_name" class="form-control custom-form-input"
+					placeholder="Enter last name" />
+				</div>
+			</div>*@
+			<div class="form-group">
+				<div class="form-outline mb-4">
+				<input type="email" id="email"  class="form-control custom-form-input"
+									   placeholder="Enter email address" name="UserEmail" />
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-outline mb-4">
+				  <input type="tel" id="phone" class="form-control custom-form-input"
+								   placeholder="Enter phone number" name="PhoneNumber" />
+				</div>
+			</div>
+			<!-- ... More contact information fields ... -->
+			<a
+			  onclick="showStep(2)"
+			  class="text-uppercase next-btn mx-auto d-block"
+			  >Next</a
+			>
+		  </div>
+
+					<div id="step2" style="display: none">
+						<div class="form-group">
+							<label for="resume">Upload Resume</label>
+							<input type="file" class="form-control-file" id="resume" name="resume" />
+						</div>
+						<div class="form-group">
+							<label for="jobverseResume">Select from Jobverse</label>
+							<select class="form-control" id="resumeId" name="resumeId">
+								<option value="">Select Resume</option>
+								@for (int i = 0; i < Model.Count; i++)
+								{
+									var resume = Model[i];
+									<option value="@resume.ResumeId">Resume @(i + 1)</option>
+									
+								}
+							</select>
+						</div>
+						<a onclick="showStep(3)" class="text-uppercase next-btn mx-auto d-block">Next</a>
+					</div>
+
+
+		  <!-- Profile Completeness Form - Step 3 (Hidden by default) -->
+		  <div id="step3" style="display: none">
+			<div class="form-group">
+			  <label>Have you graduated?</label>
+			  <div class="form-check">
+				<input
+				  type="radio"
+				  class="form-check-input"
+				  name="graduated"
+				  id="graduatedYes"
+				  value="yes"
+				/>
+				<label class="form-check-label" for="graduatedYes">Yes</label>
+			  </div>
+			  <div class="form-check">
+				<input
+				  type="radio"
+				  class="form-check-input"
+				  name="graduated"
+				  id="graduatedNo"
+				  value="no"
+				/>
+				<label class="form-check-label" for="graduatedNo">No</label>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label>Are you experienced?</label>
+			  <div class="form-check">
+				<input
+				  type="radio"
+				  class="form-check-input"
+				  name="experienced"
+				  id="experiencedYes"
+				  value="yes"
+				/>
+				<label class="form-check-label" for="experiencedYes">Yes</label>
+			  </div>
+			  <div class="form-check">
+				<input
+				  type="radio"
+				  class="form-check-input"
+				  name="experienced"
+				  id="experiencedNo"
+				  value="no"
+				/>
+				<label class="form-check-label" for="experiencedNo">No</label>
+			  </div>
+			</div>
+			<a
+			  onclick="showStep(4)"
+			  class="text-uppercase next-btn mx-auto d-block"
+			  >Next</a
+			>
+
+		  </div>
+		  <!-- Profile Completeness Form - Step 4 (Hidden by default) -->
+		  <div id="step4" style="display: none">
+			<div class="form-group">
+				<div class="form-outline mb-4">
+								<input type="text" id="experience" name="Experience" class="form-control custom-form-input"
+					placeholder="Enter years of experience"  />
+				</div>
+			</div>
+						<button class="text-uppercase next-btn mx-auto d-block" type="submit">Submit Application</button>
+		  </div>
+		 
+				</form>
+		</div>
+		<div class="col-12 col-md-12 col-lg-5 d-flex justify-content-center">
+		  <div class="bg-card">
+			<div class="d-flex align-items-center gap-x-2 company-card">
+			  <div class="company-info">
+				<img
+				  class="company-logo"
+				  src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/1b5179e9165031502bc3e46661bc95b3"
+				  alt=""
+				/>
+			  </div>
+			  <div>
+				<h2 class="dark-text fs-14 mb-1">Software Developer</h2>
+				<p class="gray-text fs-12 mb-0 fw-medium">Optergy - Lahore</p>
+			  </div>
+			</div>
+			<hr class="horizantal-line" />
+			<p class="fs-14 dark-text">
+			  We are seeking a skilled "Software Developer" to join our
+			  expanding team at our Lahore office. As a market-leading company
+			  in Building Automation and Energy Management Systems, we offer a
+			  prime opportunity for an individual with a solid educational
+			  background in Computer Science, Software, or IT. However, we value
+			  genuine enthusiasm and enduring dedication to working with
+			  cutting-edge technology products above all else. This position
+			  holds significant importance within our Lahore office and will
+			  function as a Senior Software Engineer role mainly tasked with
+			  Backend Development. The successful candidate will report remotely
+			  to our management team located in Australia, contributing to our
+			  global operations.
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script>
+		function getCookie(cookieName) {
+		var name = cookieName + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var cookieArray = decodedCookie.split(';');
+
+		for (var i = 0; i < cookieArray.length; i++) {
+			var cookie = cookieArray[i].trim();
+			if (cookie.indexOf(name) == 0) {
+				return cookie.substring(name.length, cookie.length);
+			}
+		}
+
+		return null;
+	}
+
+	  function showStep(step) {
+		// Hide all steps first
+		for (let i = 1; i <= 4; i++) {
+		  document.getElementById("step" + i).style.display = "none";
+		}
+
+		document.getElementById("step" + step).style.display = "block";
+
+		// Update progress bar and heading based on the step
+		if (step === 2) {
+		  updateProgress(50);
+		  document.querySelector(".progress-heading h3").textContent =
+			"Upload your resume";
+		} else if (step === 3) {
+		  updateProgress(75);
+		  document.querySelector(".progress-heading h3").textContent =
+			"Answer questions";
+		} else if (step === 4) {
+		  updateProgress(90);
+		  document.querySelector(".progress-heading h3").textContent =
+			"Enter years of experience";
+		}
+	  }
+
+	  function updateProgress(completeness) {
+		const progressBar = document.querySelector(".progress-bar");
+		progressBar.style.width = completeness + "%";
+		progressBar.textContent = completeness + "% Complete";
+	  }
+
+	  function completeProfile() {
+		// Get form data
+		const firstName = document.getElementById("first_name").value;
+		const lastName = document.getElementById("last_name").value;
+		const email = document.getElementById("email").value;
+		const phoneNumber = document.getElementById("phone").value;
+		const experience = document.getElementById("experience").value;
+
+		var username = getCookie("Username");
+		console.log(username);
+		// JSON object
+		const formData = {
+		  JobId: @ViewBag.JobId,
+		  UserEmail: username,
+		  Applier: `${firstName} ${lastName}`,
+		  PhoneNumber: phoneNumber,
+		  Experience: experience,
+		  ResumeId: 98,
+		};
+
+		// Send form data to the controller
+		$.ajax({
+		  type: "POST",
+		  url: "/JobApplication/SaveApplication",
+		  data: JSON.stringify(formData),
+		  contentType: "application/json",
+		  success: function (data) {
+			alert("Profile completed successfully!");
+		  },
+		  error: function (error) {
+			console.error("Error:", error);
+		  },
+		});
+	  }
+
+	</script>
+  </body>
+</html>

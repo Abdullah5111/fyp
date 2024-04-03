@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "J6srOwlt9PZXfHnUPO/MLp24Fxdt4dL6A3+QkyRaq+IBAlgwwhSfTQTHTR3KMzmXHgSGIIroU02f0YUx9hciVQ==",
+  "success": true,
+  "projectFilePath": "D:\\6TH SEMESTER\\SCAD\\WebApplications\\developerhunter-main\\ResumeIdHandler\\ResumeIdHandler\\EventBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
